@@ -1,0 +1,14 @@
+version: '3'
+services:
+  service1:
+    container_name: service1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # ports:
+    #   - 3000:3000
+    networks:
+      - mynetwork
+networks:
+  mynetwork:
+    name: mynetwork

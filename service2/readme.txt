@@ -1,0 +1,1 @@
+chane your aws config path fir local machine
